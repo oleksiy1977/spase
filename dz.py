@@ -1,3 +1,5 @@
+def main():
+    pass
 import os
 import shutil
 import mimetypes
@@ -52,3 +54,5 @@ def sort_folder(folder_path):
                 # Якщо розширення невідоме, залишаємо файл без змін
                 shutil.move(item_path, os.path.join(folder_path, normalized_name))
 sort_folder('/user/Desktop/Мотлох')
+if __name__ =="_main_":
+    print (main)
